@@ -30,3 +30,40 @@
     border-radius: 0.75rem;
 }
 
+@media (max-width: 480px) {
+    .main-image {
+        height: auto;
+        border-radius: 10%;
+        margin-top: 0 !important;
+    }
+
+    .feature-image {
+        display: none !important;
+    }
+
+    .about-image {
+        height: auto !important;
+    }
+
+    .border {
+        padding: 1rem !important;
+        border: 0 !important; 
+        background-color: rgba(255 255 255);
+        margin-top: 80 !important;
+        width: 50%;
+        margin-left: 1rem;
+    }
+
+    p {
+        font-size: 0.85rem !important;
+    }
+
+    button {
+        font-size: 0.75rem !important;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.5rem !important;
+    }
+}
