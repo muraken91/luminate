@@ -1,0 +1,32 @@
+.border {
+    padding: 3rem;
+    border-radius: 0.75rem;
+    background-color: white;
+}
+
+.main-image {
+    display: flex;
+    position: absolute;
+    height: 32rem;
+    width: 50rem;
+    border-radius: 5%;
+    z-index: -1;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+.about-image {
+    height: 20rem;
+    width: 35rem;
+    border-radius: 5%;
+}
+
+.feature-image {
+    height: 19rem;
+    width: 33rem;
+    border-radius: 0.75rem;
+}
+
